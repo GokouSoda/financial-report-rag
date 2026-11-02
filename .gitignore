@@ -1,0 +1,17 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/
+
+# Filing PDFs are downloaded locally and should not be committed.
+data/raw/
+data/processed/
+data/index/
+web/node_modules/
+web/dist/
+tmp/
+*.log
+*.part
+
